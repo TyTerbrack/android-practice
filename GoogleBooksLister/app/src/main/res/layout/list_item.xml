@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Book Title"/>
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Author"/>
+
+        <TextView
+            android:id="@+id/publisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Publisher"/>
+
+        <TextView
+            android:id="@+id/published_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Published Date"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            tools:text="Description"/>
+
+        <TextView
+            android:id="@+id/page_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Page Count"/>
+
+    </LinearLayout>
+</LinearLayout>

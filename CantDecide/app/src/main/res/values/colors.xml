@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Color of the movie title text in the list view item-->
+    <color name="colorTitleText">#2B3D4D</color>
+
+    <!-- Color of the movie details text in the list view item-->
+    <color name="colorInfoText">#AEB6BD</color>
+</resources>
